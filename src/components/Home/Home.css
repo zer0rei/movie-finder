@@ -1,0 +1,41 @@
+.home {
+  padding-top: 8px;
+}
+
+.home__title {
+  font-size: 22px;
+}
+
+.home__categories {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 32px;
+}
+
+.home__categories__series-button {
+  margin-top: 32px;
+  margin-left: 0;
+}
+
+@media only screen and (min-width: 564px) {
+  .home__categories {
+    flex-direction: row;
+  }
+
+  .home__categories__series-button {
+    margin-top: 0;
+    margin-left: 32px;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .home__categories {
+    justify-content: flex-start;
+  }
+
+  .home {
+    padding-top: 54px;
+  }
+}
