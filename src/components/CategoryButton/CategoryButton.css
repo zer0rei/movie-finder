@@ -1,0 +1,53 @@
+.category-button {
+  display: inline-block;
+  width: 250px;
+  text-align: center;
+}
+
+.category-button__button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  width: 100%;
+  height: 250px;
+  padding: 0;
+  background-color: #e0e0e0;
+  cursor: pointer;
+  border: none;
+  box-shadow: 0 2px 1px -1px rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14),
+    0 1px 3px 0 rgba(0, 0, 0, 0.12);
+}
+
+.category-button__button:hover {
+  background: lightgrey radial-gradient(circle, transparent 1%, lightgrey 1%)
+    center/15000%;
+}
+
+.category-button__button:active {
+  background-color: #c0c0c0;
+  border: none;
+  box-shadow: 0 5px 5px -3px rgba(0, 0, 0, 0.2),
+    0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12);
+}
+
+.category-button__title {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+  margin-top: 16px;
+}
+
+.category-button__icon {
+  height: 80px;
+  width: 80px;
+  opacity: 0.5;
+}
+
+.category-button__subtitle {
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+  margin-top: 8px;
+}
