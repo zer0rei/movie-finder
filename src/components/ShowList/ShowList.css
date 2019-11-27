@@ -1,0 +1,45 @@
+.show-list__back-button {
+  margin-top: 16px;
+  margin-left: -4px;
+}
+
+.show-list__title {
+  font-size: 20px;
+}
+
+.show-list__search {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  max-width: 600px;
+}
+
+.show-list__search__input {
+  padding: 8px 16px;
+  padding-right: 92px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.show-list__search__icon i {
+  margin-right: 4px;
+  font-size: 13px;
+}
+
+.show-list__search__icon {
+  position: absolute;
+  right: 16px;
+  top: 8px;
+  color: royalblue;
+  font-size: 14px;
+}
+
+.show-list__shows-container {
+  margin-top: 16px;
+}
+
+.show-list__item {
+  margin-top: 8px;
+}
