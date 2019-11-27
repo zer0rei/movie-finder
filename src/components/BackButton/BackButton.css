@@ -1,0 +1,14 @@
+.back-button {
+  background: none;
+  border: none;
+  color: #555;
+  cursor: pointer;
+}
+
+.back-button:active {
+  background-color: #eee;
+}
+
+.back-button i {
+  margin-right: 4px;
+}
