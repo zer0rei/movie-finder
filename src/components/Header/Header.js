@@ -6,7 +6,11 @@ import logo from "../../assets/logo.svg";
 function Header({ onLogoClick }) {
   return (
     <header className="header">
-      <div className="header__logo-container" onClick={onLogoClick}>
+      <div
+        className="header__logo-container"
+        data-testid="logo-container"
+        onClick={onLogoClick}
+      >
         <img className="header__logo" src={logo} alt="logo" />
         <div className="header__title">Movie Finder</div>
       </div>

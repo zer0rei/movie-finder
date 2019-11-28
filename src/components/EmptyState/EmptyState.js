@@ -5,9 +5,9 @@ import "./EmptyState.css";
 function EmptyState({ className, icon, message, description }) {
   return (
     <div className={`empty-state ${className}`}>
-      <i className={`fas fa-${icon} empty-state__icon`} />
-      <p className="empty-state__message">{message}</p>
-      <p className="empty-state__description">{description}</p>
+      {icon && <i className={`fas fa-${icon} empty-state__icon`} />}
+      {message && <p className="empty-state__message">{message}</p>}
+      {description && <p className="empty-state__description">{description}</p>}
     </div>
   );
 }
