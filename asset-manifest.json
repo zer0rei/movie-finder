@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/movie-finder/static/css/main.c703c14a.chunk.css",
+    "main.js": "/movie-finder/static/js/main.901b327e.chunk.js",
+    "main.js.map": "/movie-finder/static/js/main.901b327e.chunk.js.map",
+    "runtime-main.js": "/movie-finder/static/js/runtime-main.15c8f900.js",
+    "runtime-main.js.map": "/movie-finder/static/js/runtime-main.15c8f900.js.map",
+    "static/css/2.942c9c19.chunk.css": "/movie-finder/static/css/2.942c9c19.chunk.css",
+    "static/js/2.d7be50c4.chunk.js": "/movie-finder/static/js/2.d7be50c4.chunk.js",
+    "static/js/2.d7be50c4.chunk.js.map": "/movie-finder/static/js/2.d7be50c4.chunk.js.map",
+    "index.html": "/movie-finder/index.html",
+    "precache-manifest.5073789b4901b7cea3b05c25567a3814.js": "/movie-finder/precache-manifest.5073789b4901b7cea3b05c25567a3814.js",
+    "service-worker.js": "/movie-finder/service-worker.js",
+    "static/css/2.942c9c19.chunk.css.map": "/movie-finder/static/css/2.942c9c19.chunk.css.map",
+    "static/css/main.c703c14a.chunk.css.map": "/movie-finder/static/css/main.c703c14a.chunk.css.map",
+    "static/media/index.css": "/movie-finder/static/media/fa-solid-900.c2801fb4.svg",
+    "static/media/logo.svg": "/movie-finder/static/media/logo.bb4244da.svg",
+    "static/media/movie-clapper.svg": "/movie-finder/static/media/movie-clapper.9231dfe5.svg",
+    "static/media/television.svg": "/movie-finder/static/media/television.41723b11.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.15c8f900.js",
+    "static/css/2.942c9c19.chunk.css",
+    "static/js/2.d7be50c4.chunk.js",
+    "static/css/main.c703c14a.chunk.css",
+    "static/js/main.901b327e.chunk.js"
+  ]
+}
