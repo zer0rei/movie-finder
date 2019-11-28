@@ -72,18 +72,25 @@ function ShowList({ type, onBackButtonClick, onDetailsShow }) {
       );
     }
 
-    return shows.map((show, index) => (
-      <ShowItem
-        key={show.title}
-        className="show-list__item"
-        image={show.images["Poster Art"].url}
-        title={show.title}
-        index={index + 1}
-        releaseYear={show.releaseYear}
-        type={show.programType}
-        onMoreInfoClick={() => onDetailsShow(show)}
-      />
-    ));
+    return (
+      <div
+        className="show-list__shows-container"
+        data-testid="show-list-container"
+      >
+        {shows.map((show, index) => (
+          <ShowItem
+            key={show.title}
+            className="show-list__item"
+            image={show.images["Poster Art"].url}
+            title={show.title}
+            index={index + 1}
+            releaseYear={show.releaseYear}
+            type={show.programType}
+            onMoreInfoClick={() => onDetailsShow(show)}
+          />
+        ))}
+      </div>
+    );
   };
 
   return (
@@ -107,7 +114,7 @@ function ShowList({ type, onBackButtonClick, onDetailsShow }) {
           <i className="fas fa-search" /> Search
         </span>
       </div>
-      <div className="show-list__shows-container">{renderShows()}</div>
+      {renderShows()}
     </div>
   );
 }
