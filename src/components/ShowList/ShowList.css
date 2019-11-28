@@ -17,10 +17,12 @@
 .show-list__search__input {
   padding: 8px 16px;
   padding-right: 92px;
+  margin: 0;
   width: 100%;
   border: 1px solid #ccc;
   border-radius: 4px;
   font-size: 14px;
+  -webkit-appearance: textfield;
 }
 
 .show-list__search__icon i {
