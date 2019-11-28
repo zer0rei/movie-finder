@@ -8,7 +8,7 @@ function Header({ onLogoClick }) {
     <header className="header">
       <div className="header__logo-container" onClick={onLogoClick}>
         <img className="header__logo" src={logo} alt="logo" />
-        <div className="header__title">React Movies</div>
+        <div className="header__title">Movie Finder</div>
       </div>
     </header>
   );
