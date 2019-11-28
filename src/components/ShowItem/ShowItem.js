@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import "./ShowItem.css";
-import { toCamel } from "../../utils";
+import { toUpperInitial } from "../../utils";
 
 function ShowItem({
   className,
@@ -18,7 +18,7 @@ function ShowItem({
       <span className="show-item__title">
         {index}. {title}
       </span>
-      <span className="show-item__type">{toCamel(type)}</span>
+      <span className="show-item__type">{toUpperInitial(type)}</span>
       <span className="show-item__year">{releaseYear}</span>
       <button className="show-item__info-button" onClick={onMoreInfoClick}>
         <i className="fas fa-info-circle" />

@@ -6,7 +6,7 @@ import BackButton from "../BackButton";
 import ShowItem from "../ShowItem";
 import LoadingIndicator from "../LoadingIndicator";
 import EmptyState from "../EmptyState";
-import { toCamel } from "../../utils";
+import { toUpperInitial } from "../../utils";
 
 // Should come from an environment variable
 const showsAPI =
@@ -92,7 +92,7 @@ function ShowList({ type, onBackButtonClick, onDetailsShow }) {
         className="show-list__back-button"
         onClick={onBackButtonClick}
       />
-      <h1 className="show-list__title">Top Rated {toCamel(type)}</h1>
+      <h1 className="show-list__title">Top Rated {toUpperInitial(type)}</h1>
       <div className="show-list__search">
         <input
           className="show-list__search__input"

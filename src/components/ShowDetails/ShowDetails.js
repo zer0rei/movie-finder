@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import "./ShowDetails.css";
 import BackButton from "../BackButton";
-import { toCamel } from "../../utils";
+import { toUpperInitial } from "../../utils";
 
 function ShowDetails({
   onBackButtonClick,
@@ -27,7 +27,7 @@ function ShowDetails({
             {title} ({releaseYear})
           </h2>
           <p className="show-details__body__info__type">
-            Type: {toCamel(type)}
+            Type: {toUpperInitial(type)}
           </p>
           <p className="show-details__body__info__description">{description}</p>
         </div>
