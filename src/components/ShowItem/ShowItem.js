@@ -14,7 +14,7 @@ function ShowItem({
 }) {
   return (
     <div className={`show-item ${className}`}>
-      <img className="show-item__image" src={image} alt="Poster image" />
+      <img className="show-item__image" src={image} alt="Poster" />
       <span className="show-item__title">
         {index}. {title}
       </span>

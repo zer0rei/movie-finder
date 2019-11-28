@@ -30,7 +30,7 @@ const dataFetchReducer = (state, action) => {
 const useAxios = (initialUrl, initialData) => {
   const [url, setUrl] = useState(initialUrl);
   const [state, dispatch] = useReducer(dataFetchReducer, {
-    isLoading: false,
+    isLoading: true,
     isError: false,
     data: initialData
   });
