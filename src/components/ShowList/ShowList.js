@@ -5,6 +5,7 @@ import useAxios from "../../hooks/useAxios";
 import BackButton from "../BackButton";
 import ShowItem from "../ShowItem";
 import LoadingIndicator from "../LoadingIndicator";
+import EmptyState from "../EmptyState";
 import { toCamel } from "../../utils";
 
 // Should come from an environment variable
@@ -52,11 +53,23 @@ function ShowList({ type, onBackButtonClick, onDetailsShow }) {
     }
 
     if (isError) {
-      return "Error State";
+      return (
+        <EmptyState
+          icon="exclamation-circle"
+          message="Oops !"
+          description="Something went wrong, please try again later"
+        />
+      );
     }
 
     if (!shows.length) {
-      return "Empty State";
+      return (
+        <EmptyState
+          icon="search"
+          message="No results found"
+          description="Try adjusting your search to find what you're looking for"
+        />
+      );
     }
 
     return shows.map((show, index) => (
