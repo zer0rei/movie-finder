@@ -6,7 +6,7 @@ import ShowList from "../ShowList";
 import ShowDetails from "../ShowDetails";
 
 function App() {
-  const [currentPage, setCurrentPage] = useState("movies");
+  const [currentPage, setCurrentPage] = useState("home");
   const [currentShowInDetailsPage, setCurrentShowInDetailsPage] = useState();
 
   const handlePageChange = page => () => setCurrentPage(page);
